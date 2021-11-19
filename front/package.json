@@ -17,7 +17,6 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.13",
-    "eslint": "^8.2.0",
     "prettier": "2.4.1"
   },
   "scripts": {
@@ -25,14 +24,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "lint": "eslint",
     "pretty": "prettier --write ."
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
   },
   "browserslist": {
     "production": [
